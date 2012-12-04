@@ -1,0 +1,158 @@
+﻿/* general classes */
+body {
+	font-size: 12px; 
+	color: #494949;
+	font-family: verdana;
+	background-color: white;
+	text-align:center;/* needed to center container on page */
+}
+a {
+	text-decoration:none;
+	color:#027ac6;
+}
+a:hover {
+	text-decoration:underline;
+	color:#0062a0;
+}
+fieldset{
+	border:1px solid #d3e7f4;
+	padding: 15px 20px;
+}
+label {
+	font-weight:bold;
+}
+
+
+/* table for layout */
+table{
+	border-spacing: 0px;
+	width:100%;
+}
+thead th {
+	border-bottom: 2px solid #d3e7f4;
+	color: #494949;
+	font-weight: bold;
+	text-align:left;
+	background-color:white;
+}
+td, th {
+	font-size: 12px; 
+	padding: .3em .5em;
+}
+tr.even td, tr.odd td {
+	background-color: #edf5fa;
+	border-bottom: 1px solid #d3e7f4;
+	padding: 0.1em 0.6em;
+}
+tr.even td {
+	background-color: white;
+}
+
+
+
+/* basic page layout */
+.f_container {
+	width:975px;
+	margin:auto;
+	text-align:left;
+}
+.f_body {
+	margin-left:195px;
+	/*background: #DDD;*/
+	padding:15px;
+}
+.f_menu {
+	width:195px;
+	float:left;
+	/*background: #66F;*/
+	}
+.f_header {
+	margin-left:195px;
+	text-align:center;
+	margin-top:6px;
+	background: #027ac6;
+	color:white;
+}
+.f_footer {
+	clear:both;
+	padding:3px 0px;
+	margin-top:50px;
+	background: #027ac6;
+	color:white;
+	text-align:center;
+	margin-left:195px;
+	font-weight:bold;
+}
+
+/* menus */
+.f_menu a {
+	display:block;
+	padding:2px 10px;
+	margin:4px 20px 4px 0px;
+	border-left:4px solid #027ac6;
+	transition:.35s;
+	-webkit-transition:.35s;
+	-moz-transition:.35s;
+	-o-transition:.35s;
+}
+.f_menu a:hover {
+	background-color: #027ac6;
+	color:white;
+	text-decoration:none;
+}
+.f_menu a.green:hover {
+	background-color: #008000;
+	color: #white;
+	text-decoration: none;
+	border-left: 4px solid #008000;
+}
+.f_menu a.red:hover {
+	background-color: #ff0000;
+	color: #000000;
+	text-decoration: none;
+	border-left: 4px solid #ff0000;
+}
+.f_menu a.yellow:hover {
+	background-color: #ffff00;
+	color: #000000;
+	text-decoration: none;
+	border-left: 4px solid #ffff00;
+}
+
+div.form-item {
+	margin-bottom:20px;
+}
+span.hint {
+	color:silver;
+}
+
+.msg {
+	margin-bottom:20px;
+	color: #027ac6;
+	font-weight:bold;
+	font-size:15px;
+	}
+
+.error{
+	color:red;
+	}
+
+.msg div.preview{
+	color: black;
+	font-weight:normal;
+	/*font-size:normal;*/
+	border:1px solid #027ac6;
+	margin:10px 0px;
+	padding:4px;
+	background-color:#FFFFCC;
+}
+
+a.tm {
+
+}
+a.tm:hover {
+	padding: 2px 10px;
+	background-color: #027ac6;
+	color: #ffffff;
+	text-decoration: none;
+}
