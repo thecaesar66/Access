@@ -2,9 +2,9 @@
 
 session_start(); // start session cookies (otherwise won't remember login between pages)
 
-require("includes/config.php");
-require("includes/Database.singleton.php");
-require("includes/Login.singleton.php");
+("includes/config.php");
+("includes/Database.singleton.php");
+("includes/Login.singleton.php");
 
 // create initial singleton database connection and connect
 $db = Database::obtain(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
